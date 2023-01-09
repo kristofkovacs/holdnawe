@@ -7,36 +7,39 @@ div {
   font-family: corbert-wide;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body,
 html {
   text-align: center;
-  margin: 0 auto;
   height: 100%;
   width: 100%;
-  background: #eff0f4;
+  background: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 }
 
 .logo {
-  height: 25%;
   max-width: 300px;
-  margin-top: 8%;
+  margin-top: 10vh;
 }
 
 .footnote {
-  color: #000;
-  font-size: 1.05rem;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 4px;
   font-family: corbert-wide;
   text-transform: uppercase;
 }
 
 .text {
-  color: #000;
-  margin: 20px;
-  font-size: 32px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
   font-family: corbert-wide;
   text-transform: uppercase;
 }
@@ -46,17 +49,17 @@ ul {
   align-items: center;
   list-style: none;
   padding: 0%;
-  margin: 20px;
+  margin: 15px;
+}
+
+img {
+  fill: #fff;
 }
 
 li {
   height: 80%;
   margin: 15px;
   transition: all 0.2s ease-in-out;
-}
-
-img {
-  fill: #000;
 }
 
 li:hover {
