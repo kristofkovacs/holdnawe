@@ -26,7 +26,13 @@ html {
 
 .logo {
   max-width: 300px;
-  margin-top: 10vh;
+  margin-top: 8vh;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    margin-top: 3vh;
+  }
 }
 
 .footnote {
